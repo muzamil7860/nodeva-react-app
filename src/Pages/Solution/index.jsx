@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Vector from "../../assets/tickerr/Vector.svg";
-import Slider from "../../assets/tickerr/Slider.png";
-import VectorOne from "../../assets/tickerr/VectorOne.png";
-import VectorTwo from "../../assets/VectorTwo.svg";
+import Vector from "../../../assets/tickerr/Vector.svg";
+import Slider from "../../../assets/tickerr/Slider.png";
+import VectorOne from "../../../assets/tickerr/VectorOne.png";
+import VectorTwo from "../../../assets/VectorTwo.svg";
 
 const solutionsData = [
   {
@@ -47,7 +47,7 @@ const cardVariants = {
 
 const SolutionsSection = () => {
   return (
-    <div className="bg-gradient-bg text-white p-6  mt-[50px]">
+    <div className="bg-gradient-bg mx-auto max-w-[80rem] text-white p-6  mt-[50px]">
       <h1 className="text-3xl md:text-5xl font-bold text-center mb-12">
         Our Solutions
       </h1>
@@ -76,7 +76,7 @@ const SolutionsSection = () => {
               <h2 className="text-lg text-start font-bold text-[#bb5eff]">
                 {solution.title}
               </h2>
-              <p className="text-gray-light text-sm mt-1">
+              <p className="text-gray-light text-start text-sm mt-1">
                 {solution.description}
               </p>
             </div>
