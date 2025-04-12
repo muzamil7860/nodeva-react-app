@@ -119,7 +119,7 @@ export default function WhoWeAre() {
           </p>
         </div>
         <button className="bg-gradient-to-r block sm:hidden from-[#3D05DD] to-[#EFA4F2] text-white px-6 py-3 rounded-full font-medium">
-          Learn More About Us
+          Learn More About Us ,
         </button>
       </div>
     </section>
