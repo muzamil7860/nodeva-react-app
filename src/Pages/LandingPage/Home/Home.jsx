@@ -8,7 +8,6 @@ import img3 from "../../../assets/tickerr/TS.png";
 import img4 from "../../../assets/tickerr/React.png";
 import img5 from "../../../assets/tickerr/Shadcn.png";
 import Marquee from "react-fast-marquee";
-import Footer from "../../../components/Footer";
 import { useNavigate } from "react-router-dom";
 import IndustryExperience from "../IndustoryExperiance";
 import Solutions from "../Solution";
@@ -54,5 +53,4 @@ const Home = () => {
     </Page>
   );
 };
-s;
 export default Home;

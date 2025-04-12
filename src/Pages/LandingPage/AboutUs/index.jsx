@@ -9,7 +9,7 @@ import Flag from "../../../assets/tickerr/Flag.png";
 import Frame from "../../../assets/tickerr/Frame.png"
 export default function WhoWeAre() {
   return (
-    <section className="p-6 mt-[0px] w-full">
+    <section className="p-6 mx-auto max-w-[80rem]  mt-[0px] w-full">
       <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-center mb-10">Who We Are</h1>
       <div className="flex flex-col justify-center lg:flex-row gap-6">
         <div className="flex flex-col gap-6">

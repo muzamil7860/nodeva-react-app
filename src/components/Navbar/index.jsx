@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className=" top-2.5 left-[5%] right-[5%] flex items-center justify-between w-[90%] mx-auto max-w-[80rem] py-2.5 lg:w-[95%] lg:left-[2.5%] lg:right-[2.5%]">
-      <div className="max-w-[clamp(120px,15vw,325px)] mt-5">
+      <div className="max-w-[clamp(120px,15vw,325px)] ">
         <img src={logo} alt="Logo" className="w-full h-auto object-contain" />
       </div>
 
