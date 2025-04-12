@@ -1,12 +1,12 @@
 import React from "react";
 import { Award, Bug } from "lucide-react";
-import Photo from "../../assets/tickerr/Photo.png";
-import Photo3 from "../../assets/tickerr/Photo3.png";
-import Photo4 from "../../assets/tickerr/Photo4.png";
-import Photo2 from "../../assets/tickerr/Photo2.png";
-import AboutProfile from "../../assets/tickerr/AboutProfile.png";
-import Flag from "../../assets/tickerr/Flag.png";
-import Frame from "../../assets/tickerr/Frame.png"
+import Photo from "../../../assets/tickerr/Photo.png";
+import Photo3 from "../../../assets/tickerr/Photo3.png";
+import Photo4 from "../../../assets/tickerr/Photo4.png";
+import Photo2 from "../../../assets/tickerr/Photo2.png";
+import AboutProfile from "../../../assets/tickerr/AboutProfile.png";
+import Flag from "../../../assets/tickerr/Flag.png";
+import Frame from "../../../assets/tickerr/Frame.png"
 export default function WhoWeAre() {
   return (
     <section className="p-6 mt-[0px] w-full">
@@ -119,9 +119,9 @@ export default function WhoWeAre() {
           </p>
         </div>
         <button className="bg-gradient-to-r block sm:hidden from-[#3D05DD] to-[#EFA4F2] text-white px-6 py-3 rounded-full font-medium">
-          Learn More About Us ,
+          Learn More About Us
         </button>
       </div>
     </section>
-  )
+  );
 }
